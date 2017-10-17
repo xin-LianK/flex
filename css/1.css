@@ -1,0 +1,19 @@
+body{
+	padding:10px;
+}
+.test_radio{width:160px; line-height:1.8; float:left; margin-bottom: 20px;}
+p {line-height:1.8;font:1.2em bold red;clear: both;}
+.pDiv {
+	border: 1px solid blue;
+	padding: 5px;
+	display: inline-block;
+}
+.pDiv div {
+	border: 1px solid red;
+	width: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+.flex { display: flex; }
+.flex-wrap { flex-wrap: wrap; }
+.align-content div:nth-child(n) { height: 50px; }
